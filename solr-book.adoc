@@ -1,4 +1,4 @@
-Eine Einführung zu Apache Solr
+An Introduction to Apache Solr
 ==============================
 Frank Hofmann
 :subtitle:
@@ -7,17 +7,16 @@ Frank Hofmann
 :revnumber: 0.1
 :Author Initials: FH
 :edition: 1
-:lang: de
-:date: 3. Februar 2021
+:lang: en
+:date: 3 February 2021
 :numbered:
 :source-highlighter: rouge
 
 [preface]
-// include::preface/preface.adoc[]
+include::preface/preface.adoc[]
 
 // [main]
-
-// include::data-analysis-introduction/data-analysis-introduction.adoc[]
+include::overview/overview.adoc[]
 
 // include::understanding-data/understanding-data.adoc[]
 
