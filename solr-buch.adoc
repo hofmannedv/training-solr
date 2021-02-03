@@ -1,0 +1,39 @@
+Eine Einführung zu Apache Solr
+==============================
+Frank Hofmann
+:subtitle:
+:doctype: book
+:copyright: Frank Hofmann
+:revnumber: 0.1
+:Author Initials: FH
+:edition: 1
+:lang: de
+:date: 3. Februar 2021
+:numbered:
+:source-highlighter: rouge
+
+[preface]
+// include::preface/preface.adoc[]
+
+// [main]
+
+// include::data-analysis-introduction/data-analysis-introduction.adoc[]
+
+// include::understanding-data/understanding-data.adoc[]
+
+// include::libraries/libraries.adoc[]
+
+// include::functions-and-data-structures/functions-and-data-structures.adoc[]
+
+// include::preparing-data/preparing-data.adoc[]
+
+// include::visualization/visualization.adoc[]
+
+// include::what-is-next/what-is-next.adoc[]
+
+// apendix
+[appendix]
+
+// include::references/references.adoc[]
+
+// include::acknowledgements/acknowledgements.adoc[]
