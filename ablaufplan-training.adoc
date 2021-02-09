@@ -53,20 +53,20 @@ Frank Hofmann
 
 * Solr-Instanzen starten und beenden als Benutzer `root`
 
-Status anzeigen:: `systemctl status` sowie `solr/bin status`
+Status anzeigen:: `systemctl status` sowie `solr/bin/solr status`
 
-Solr starten :: `systemctl start solr` sowie `solr/bin start`
+Solr starten :: `systemctl start solr` sowie `solr/bin/solr start`
 
-Solr auf besonderem Port starten :: `solr/bin start -p Portnummer`
+Solr auf besonderem Port starten :: `solr/bin/solr start -p Portnummer`
 
 [source,bash]
 ----
-# solr/bin start -p 10000
+# solr/bin/solr start -p 10000
 ----
 
-Solr anhalten :: `systemctl stop solr` sowie `solr/bin stop`
+Solr anhalten :: `systemctl stop solr` sowie `solr/bin/solr stop`
 
-Solr neustarten :: `systemctl restart solr` sowie `solr/bin restart`
+Solr neustarten :: `systemctl restart solr` sowie `solr/bin/solr restart`
 
 === Prüfen, ob Solr-Server läuft ===
 
