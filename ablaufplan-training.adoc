@@ -241,6 +241,21 @@ $ bin/post -c cars cars.xml
 * im Datenbestand für den Core `cars` suchen
 ** core->cars->Query
 
+==== Daten löschen ====
+
+* über die Weboberfläche
+** core->cars->Documents
+** Request Handler: /update
+** Documemnt Type: XML (JSON)
+** Documents: <delete><query>*:*</query></delete> ({'delete': {'query': '*:*'}})
+
+* mittels curl
+[source,bash]
+----
+curl http://localhost:8983/solr/cars/update -H "Content-type: text/xml" --data-binary '<delete><query>*:*</query></delete>'
+curl http://localhost:8983/solr/cars/update -H "Content-type: text/xml" --data-binary '<commit />'
+----
+
 == Solr an PostgreSQL anbinden ==
 
 === PostgreSQL einrichten ===
